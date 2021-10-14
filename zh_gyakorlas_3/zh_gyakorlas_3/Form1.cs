@@ -51,6 +51,8 @@ namespace zh_gyakorlas_3
         private void button2_Click(object sender, EventArgs e)
         {
             SaveFileDialog sfd = new SaveFileDialog();
+            sfd.Filter = "Text Files | *.txt";
+            sfd.ShowDialog();
             if (sfd.ShowDialog() != DialogResult.OK) return;
             using (StreamWriter sw = new StreamWriter(sfd.FileName, false, Encoding.UTF8))
             {
