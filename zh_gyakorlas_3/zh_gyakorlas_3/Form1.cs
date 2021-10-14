@@ -27,9 +27,10 @@ namespace zh_gyakorlas_3
 
             //Ezeket is ki kell írni!!!!!
             //users listából hívja az adatokat
-            //
             listBox1.DataSource = users;
+            //ha erre rámegyünk, akkor az id-ját választja ki
             listBox1.ValueMember = "ID";
+            //ezt jeleníti meg
             listBox1.DisplayMember = "FullName";
         }
     }
