@@ -15,7 +15,7 @@ namespace _7.gyak_wyaprm.Entities
             AutoSize = false;
             Width = 50;
             Height = Width;
-            Paint += Ball_Paint;
+            Paint += Ball_Paint; //
         }
 
         private void Ball_Paint(object sender, PaintEventArgs e)
